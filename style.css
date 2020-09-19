@@ -1,220 +1,218 @@
 :root {
-    --main-font:"Roboto",sans-serif;
-    --accent-color: #2196f3;
-    --main-text-color:#757575;
-    --main-title-color:#212121;
-    --main-black-color:#000000;
-    --main-white-color:#ffffff;
-    --bgc-menju-footer:#2f303a;
-    --bgc-team-btn:#f5f4fa;
+  --main-font: "Roboto", sans-serif;
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --main-title-color: #212121;
+  --main-black-color: #000000;
+  --main-white-color: #ffffff;
+  --bgc-menju-footer: #2f303a;
+  --bgc-team-btn: #f5f4fa;
 }
 
 body {
-    font-family: var(--main-font);
-    font-style: normal;
+  font-family: var(--main-font);
+  font-style: normal;
 }
 
 p,
 ul {
-    margin: 0;
+  margin: 0;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 address {
-    color: var(--accent-color);
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
 }
 
 .logo-web {
-    color: var(--accent-color);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: var(--main-black-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
 }
 
 .logo-two {
-    color: var(--main-white-color);
+  color: var(--main-white-color);
 }
 
 .navigation-list-link,
 .contacts-list-link {
-    font-weight: 500;
-    font-style: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: var(--main-title-color);
+  font-weight: 500;
+  font-style: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
 }
 
 .contacts-list-link {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .contact-list-link:hover,
-.contact-list-link:focus, {
-    color: var(--accent-color);
+.contact-list-link:focus {
+  color: var(--accent-color);
 }
 
 .menju {
-    background-color: var(--bgc-menju-footer);
+  background-color: var(--bgc-menju-footer);
 }
 
 .menju-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    text-align: center;
-    letter-spacing:0.06em;
-    text-transform: uppercase;
-    color: var(--main-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
 }
 
 button {
-    background-color: var(--accent-color);
-    border: none;
+  background-color: var(--bgc-team-btn);
+  border: none;
 }
 
-
 .spisok-list-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
 }
 
 .spisok-list-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
 
 .komanda {
-    background-color: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .komanda-list-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.186;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.186;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
 
 .komanda-list-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.188;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .footer {
-    background-color: var(--bgc-menju-footer);
+  background-color: var(--bgc-menju-footer);
 }
 
 .map-list-link,
 .address-list-item {
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--main-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
 }
 
 .address-list-link {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .menju-link {
-    color: var(--main-white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    text-align: center;
-    letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .map-list-link:hover,
 .map-list-link:focus,
 .address-list-link:hover,
 .address-list-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .knopki-list-button:hover,
 .knopki-list-button:focus {
-    background-color: var(--accent-color);
-    color: var(--main-white-color);
-    border: none;
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+  border: none;
 }
 
-
 .knopki-list-button {
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-black-color);
-    border-radius: 4px;
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+  border-radius: 4px;
 }
 
 .gallery-list-title {
-    font-weight: 700;
-    font-style: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color:var(--main-title-color)
+  font-weight: 700;
+  font-style: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
 }
 
 .gallery-list-type {
-    font-style: 400px;
-    font-style: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color)
+  font-style: 400px;
+  font-style: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .gallery-list-item {
-    width: 370px;
-    height: 404px;
+  width: 370px;
+  height: 404px;
 }
