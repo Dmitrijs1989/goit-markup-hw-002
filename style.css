@@ -73,13 +73,17 @@ address {
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.contact-list-link:hover,
-.contact-list-link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: var(--accent-color);
 }
 
 .menju {
   background-color: var(--bgc-menju-footer);
+}
+
+.menju-link {
+  background-color: #188ce8;
 }
 
 .menju-title {
@@ -161,6 +165,10 @@ button {
 
 .address-list-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.button-one {
+  color: var(--accent-color);
 }
 
 .menju-link {
