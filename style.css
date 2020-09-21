@@ -7,11 +7,12 @@
   --main-white-color: #ffffff;
   --bgc-menju-footer: #2f303a;
   --bgc-team-btn: #f5f4fa;
+  --menju-link: #188ce8;
+  --address-list-link: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
 }
 
 p,
@@ -27,16 +28,13 @@ ul {
   list-style-type: none;
 }
 
-address {
+.address {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
 }
 
-.logo-web {
+.logo-web,
+.logo-studio {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -46,11 +44,6 @@ address {
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
   color: var(--main-black-color);
 }
 
@@ -83,7 +76,7 @@ address {
 }
 
 .menju-link {
-  background-color: #188ce8;
+  background-color: var(--menju-link);
 }
 
 .menju-title {
@@ -128,7 +121,7 @@ button {
 }
 
 .komanda {
-  background-color: #f5f4fa;
+  background-color: var(--bgc-team-btn);
 }
 
 .komanda-list-name {
@@ -164,7 +157,7 @@ button {
 }
 
 .address-list-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-list-link);
 }
 
 .button-one {
