@@ -54,7 +54,7 @@ ul {
 .navigation-list-link,
 .contacts-list-link {
   font-weight: 500;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
@@ -189,7 +189,7 @@ button {
 
 .knopki-list-button {
   font-weight: 500;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
@@ -199,15 +199,15 @@ button {
 
 .gallery-list-title {
   font-weight: 700;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
 }
 
 .gallery-list-type {
-  font-style: 400px;
-  font-style: 16px;
+  font-style: 400;
+  font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
